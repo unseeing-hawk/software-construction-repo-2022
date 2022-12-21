@@ -12,11 +12,11 @@
 - Каймакан Полина
 - Баталова Евгения
 
-## Диаграммы
-# Контекстная диаграмма
+# Диаграммы
+## Контекстная диаграмма
 ![scheme](https://user-images.githubusercontent.com/69691273/208886043-6b8da13c-895e-42f9-8a9d-7954191c6e5c.svg)
-# Диаграмма базы данных shop
+## Диаграмма базы данных shop
 ![image](https://user-images.githubusercontent.com/69691273/208887869-354b5344-583b-4492-a6d0-df98a7a2b141.png)
-# Диаграмма базы данных bank
+## Диаграмма базы данных bank
 ![image](https://user-images.githubusercontent.com/69691273/208887485-0fec9da0-9baa-43aa-87ad-efef9efcd55d.png)
 
