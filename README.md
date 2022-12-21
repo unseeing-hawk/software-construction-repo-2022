@@ -8,9 +8,9 @@
 
 <details>
 <summary>Изображения форм</summary>
-<summary>1. Вход
+<summary>1. Вход </summary>
 <p><img src=https://user-images.githubusercontent.com/69691273/208926301-3db77275-d289-43d5-987e-e8093f2733a4.jpg width="200" height="250"><img src=https://user-images.githubusercontent.com/69691273/208926287-3b49b76d-fa67-4448-b7ce-e709f3965475.jpg  width="200" height="250"><img src=https://user-images.githubusercontent.com/69691273/208926305-535abade-8b45-4cd3-b7db-8b37890d826a.jpg width="200" height="300"></p>
-  </summary>
+
 <summary>2. Магазин, библиотека</summary>
   <img src=https://user-images.githubusercontent.com/69691273/208927411-e47d858a-9b4a-4235-8e6e-3bdee25c7512.jpg width="600" height="350"><img src=https://user-images.githubusercontent.com/69691273/208927406-06e4936b-b292-4a86-ab2a-7ed8cf778a86.jpg width="600" height="330"> 
 <summary>3. Профиль, корзина</summary>
