@@ -12,13 +12,13 @@
 - Каймакан Полина
 - Баталова Евгения
 
-##<details><summary>Изображения форм</summary>
+<details><summary>##Изображения форм</summary>
 
    <summary>1. Вход</summary>
-   ![SharedScreenshot](https://user-images.githubusercontent.com/69691273/208925288-01f6f939-70e4-47f6-b7ef-692e4ecb80d5.jpg) 
-   ![SharedScreenshot1](https://user-images.githubusercontent.com/69691273/208925291-9218be49-71ae-41ba-b684-6c2d0605453c.jpg) 
-   ![SharedScreenshot2](https://user-images.githubusercontent.com/69691273/208925292-bd117076-0837-4e20-9695-d265beb19cb7.jpg)
-   
+   ![SharedScreenshot](https://user-images.githubusercontent.com/69691273/208925554-10b4c860-7ddf-45a9-a015-009b482131c2.jpg)
+![SharedScreenshot1](https://user-images.githubusercontent.com/69691273/208925572-1cd57cc0-547b-458d-b58a-475a8f578422.jpg)
+![SharedScreenshot2](https://user-images.githubusercontent.com/69691273/208925573-2e10c5ec-5216-4215-8700-c7b38e18b6ad.jpg)
+
    <summary>2. Магазин, библиотека</summary>
 
    <summary>3. Профиль, корзина</summary>
