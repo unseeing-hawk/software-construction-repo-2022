@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" PropertyReference="ApplicationSettings.DB_scientificLibrary.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DistincPublisherTableAdapter" GeneratorDataComponentClassName="DistincPublisherTableAdapter" Name="DistincPublisher" UserDataComponentName="DistincPublisherTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="Scientific_Library.dbo.DistincPublisher" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "Publisher" FROM "dbo"."DistincPublisher"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Publisher" DataSetColumn="Publisher" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DistinctYearTableAdapter" GeneratorDataComponentClassName="DistinctYearTableAdapter" Name="DistinctYear" UserDataComponentName="DistinctYearTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="Scientific_Library.dbo.DistinctYear" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "Year" FROM "dbo"."DistinctYear"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Year" DataSetColumn="Year" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DistincTypeTableAdapter" GeneratorDataComponentClassName="DistincTypeTableAdapter" Name="DistincType" UserDataComponentName="DistincTypeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="Scientific_Library.dbo.DistincType" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "TypeOfEdition" FROM "dbo"."DistincType"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="TypeOfEdition" DataSetColumn="TypeOfEdition" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="DataSet2" msprop:Generator_DataSetName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DistincPublisher" msprop:Generator_RowEvHandlerName="DistincPublisherRowChangeEventHandler" msprop:Generator_RowDeletedName="DistincPublisherRowDeleted" msprop:Generator_RowDeletingName="DistincPublisherRowDeleting" msprop:Generator_RowEvArgName="DistincPublisherRowChangeEvent" msprop:Generator_TablePropName="DistincPublisher" msprop:Generator_RowChangedName="DistincPublisherRowChanged" msprop:Generator_RowChangingName="DistincPublisherRowChanging" msprop:Generator_TableClassName="DistincPublisherDataTable" msprop:Generator_RowClassName="DistincPublisherRow" msprop:Generator_TableVarName="tableDistincPublisher" msprop:Generator_UserTableName="DistincPublisher">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Publisher" msprop:Generator_ColumnPropNameInRow="Publisher" msprop:Generator_ColumnPropNameInTable="PublisherColumn" msprop:Generator_ColumnVarNameInTable="columnPublisher" msprop:Generator_UserColumnName="Publisher">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DistinctYear" msprop:Generator_RowEvHandlerName="DistinctYearRowChangeEventHandler" msprop:Generator_RowDeletedName="DistinctYearRowDeleted" msprop:Generator_RowDeletingName="DistinctYearRowDeleting" msprop:Generator_RowEvArgName="DistinctYearRowChangeEvent" msprop:Generator_TablePropName="DistinctYear" msprop:Generator_RowChangedName="DistinctYearRowChanged" msprop:Generator_RowChangingName="DistinctYearRowChanging" msprop:Generator_TableClassName="DistinctYearDataTable" msprop:Generator_RowClassName="DistinctYearRow" msprop:Generator_TableVarName="tableDistinctYear" msprop:Generator_UserTableName="DistinctYear">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Year" msprop:Generator_ColumnPropNameInRow="Year" msprop:Generator_ColumnPropNameInTable="YearColumn" msprop:Generator_ColumnVarNameInTable="columnYear" msprop:Generator_UserColumnName="Year" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DistincType" msprop:Generator_RowEvHandlerName="DistincTypeRowChangeEventHandler" msprop:Generator_RowDeletedName="DistincTypeRowDeleted" msprop:Generator_RowDeletingName="DistincTypeRowDeleting" msprop:Generator_RowEvArgName="DistincTypeRowChangeEvent" msprop:Generator_TablePropName="DistincType" msprop:Generator_RowChangedName="DistincTypeRowChanged" msprop:Generator_RowChangingName="DistincTypeRowChanging" msprop:Generator_TableClassName="DistincTypeDataTable" msprop:Generator_RowClassName="DistincTypeRow" msprop:Generator_TableVarName="tableDistincType" msprop:Generator_UserTableName="DistincType">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TypeOfEdition" msprop:Generator_ColumnPropNameInRow="TypeOfEdition" msprop:Generator_ColumnPropNameInTable="TypeOfEditionColumn" msprop:Generator_ColumnVarNameInTable="columnTypeOfEdition" msprop:Generator_UserColumnName="TypeOfEdition">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,17 @@
+D:\_StudioProjects\shop\shop\bin\Debug\shop.exe.config
+D:\_StudioProjects\shop\shop\bin\Debug\shop.exe
+D:\_StudioProjects\shop\shop\bin\Debug\shop.pdb
+D:\_StudioProjects\shop\shop\bin\Debug\XanderUI.dll
+D:\_StudioProjects\shop\shop\obj\Debug\shop.csproj.AssemblyReference.cache
+D:\_StudioProjects\shop\shop\obj\Debug\shop.csproj.SuggestedBindingRedirects.cache
+D:\_StudioProjects\shop\shop\obj\Debug\shop.login.WelcomeWindow.resources
+D:\_StudioProjects\shop\shop\obj\Debug\shop.Properties.Resources.resources
+D:\_StudioProjects\shop\shop\obj\Debug\shop.csproj.GenerateResource.cache
+D:\_StudioProjects\shop\shop\obj\Debug\shop.csproj.CoreCompileInputs.cache
+D:\_StudioProjects\shop\shop\obj\Debug\shop.csproj.CopyComplete
+D:\_StudioProjects\shop\shop\obj\Debug\shop.exe
+D:\_StudioProjects\shop\shop\obj\Debug\shop.pdb
+D:\_StudioProjects\shop\shop\obj\Debug\shop.login.RegistrationWindow.resources
+D:\_StudioProjects\shop\shop\obj\Debug\shop.login.LoginWindow.resources
+D:\_StudioProjects\shop\shop\obj\Debug\shop.user.Order.resources
+D:\_StudioProjects\shop\shop\obj\Debug\shop.user.UserWindow.resources

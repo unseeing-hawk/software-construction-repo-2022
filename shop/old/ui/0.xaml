@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Menu VerticalAlignment="Top" HorizontalAlignment="Left">
+	<Menu.Resources>
+		<DataTemplate DataType="{x:Type media:Geometry}">
+			<Path Width="12" Height="12" Margin="2" Data="{Binding}"
+                  Stretch="Uniform" Stroke="Black" StrokeThickness="1"/>
+		</DataTemplate>
+		<Style TargetType="MenuItem">
+			<!--Setter Property="Header" Value="{Binding Text}"/-->
+			<Setter Property="Icon" Value="{Binding Icon}"/>
+			<Setter Property="ItemsSource" Value="{Binding ChildItems}"/>
+			<Setter Property="HeaderTemplate">
+				<Setter.Value>
+					<DataTemplate>
+						<DockPanel LastChildFill="True">
+							<Border CornerRadius="7" DockPanel.Dock="Right" Padding="5,2">
+								<Border.Background>
+									<SolidColorBrush Color="{Binding ItemColor}"/>
+								</Border.Background>
+								<TextBlock Text="{Binding ItemCount}"/>
+							</Border>
+							<TextBlock Text="{Binding Text}"/>
+						</DockPanel>
+					</DataTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<CollectionViewSource x:Key="GroupedMenu" Source="{Binding}">
+			<CollectionViewSource.GroupDescriptions>
+				<PropertyGroupDescription PropertyName="GroupName"/>
+			</CollectionViewSource.GroupDescriptions>
+		</CollectionViewSource>
+	</Menu.Resources>
+	<MenuItem ItemsSource="{Binding Source={StaticResource GroupedMenu}}"
+              Icon="{x:Null}" Style="{x:Null}">
+		<MenuItem.Header>
+			<Geometry>M0,0 L2,0 M0,1 L2,1 M0,2 L2,2</Geometry>
+		</MenuItem.Header>
+		<MenuItem.GroupStyle>
+			<GroupStyle>
+				<GroupStyle.HeaderTemplate>
+					<DataTemplate>
+						<TextBlock Text="{Binding Name}" Margin="4" />
+					</DataTemplate>
+				</GroupStyle.HeaderTemplate>
+			</GroupStyle>
+		</MenuItem.GroupStyle>
+	</MenuItem>
+</Menu>
