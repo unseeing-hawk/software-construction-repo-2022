@@ -22,7 +22,7 @@
 
 # Сборка и запуск
 ## Сборка
-Для сборки запустите через PowerShell файл Add-AppDevPackage.ps1. 
+Приложение упаковано средствами VisualStudio через windows application packaging project. Для сборки запустите через PowerShell файл Add-AppDevPackage.ps1. 
 
 ## Запуск
 В меню пуск найдите созданное приложение ShopApplication и запустите его.
