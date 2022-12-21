@@ -14,7 +14,7 @@
 <summary>2. Магазин, библиотека</summary>
   <img src=https://user-images.githubusercontent.com/69691273/208927411-e47d858a-9b4a-4235-8e6e-3bdee25c7512.jpg width="600" height="350"><img src=https://user-images.githubusercontent.com/69691273/208927406-06e4936b-b292-4a86-ab2a-7ed8cf778a86.jpg width="600" height="330"> 
 <summary>3. Профиль, корзина</summary>
-  <img src=https://user-images.githubusercontent.com/69691273/208927691-26fb6fde-fbf9-48e0-acfa-a6631421f090.jpg width="600" height="350"> <img src=https://user-images.githubusercontent.com/69691273/208927685-131cb8b1-673e-4fb7-aa5a-51f11998eb96.jpg width="600" height="330">
+  <img src=https://user-images.githubusercontent.com/69691273/208928419-ecc8b1d8-d95a-44fd-82a8-8ee666f33d40.jpg width="600" height="350"> <img src=https://user-images.githubusercontent.com/69691273/208927685-131cb8b1-673e-4fb7-aa5a-51f11998eb96.jpg width="600" height="330">
 <summary>4. Оплата</summary>
   <img src=https://user-images.githubusercontent.com/69691273/208927933-46184ce7-5ac1-426e-bb35-9f61fa4cf81d.jpg width="200" height="250">
 </details>
