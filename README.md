@@ -20,3 +20,9 @@
 ## Диаграмма базы данных bank
 ![image](https://user-images.githubusercontent.com/69691273/208887485-0fec9da0-9baa-43aa-87ad-efef9efcd55d.png)
 
+# Сборка и запуск
+## Сборка
+Для сборки запустите через PowerShell файл Add-AppDevPackage.ps1. 
+
+## Запуск
+В меню пуск найдите созданное приложение ShopApplication и запустите его.
